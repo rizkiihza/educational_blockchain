@@ -19,7 +19,7 @@ class Main(object):
             transaction_list = []
 
             # generate random transaction
-            num_of_transaction = randint(1, 1) 
+            num_of_transaction = randint(1, 4) 
             for i in range(num_of_transaction):
                 from_id = randint(1,100)
                 to_id = randint(1, 100)
